@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gwt-material-starter:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="gwt-material-starter-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gwt-material-starter:war exploded" />
+    </root>
+  </artifact>
+</component>
