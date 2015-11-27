@@ -22,4 +22,4 @@ before_script:
 script:
   - mvn clean install -DdryRun=true -Dlicense.failOnMissingHeader=true -Dlicense.failOnNotUptodateHeader=true
 after_success:
-  - .utility/update_starter_site.sh
+  - .utility/update_demo_site.sh
