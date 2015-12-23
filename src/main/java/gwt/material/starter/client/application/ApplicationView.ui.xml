@@ -132,7 +132,7 @@
         </m:MaterialFAB>
 
         <!-- Footer -->
-        <m:MaterialFooter backgroundColor="blue" addStyleNames="{style.footer}">
+        <m:MaterialFooter backgroundColor="blue" type="FIXED">
             <m:MaterialFooterCopyright>
                 <m:MaterialLabel text="© 2015 Copyright GWT Material" />
             </m:MaterialFooterCopyright>
