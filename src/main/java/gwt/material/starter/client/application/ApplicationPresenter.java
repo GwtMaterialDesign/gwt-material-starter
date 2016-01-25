@@ -13,6 +13,7 @@ import com.gwtplatform.mvp.client.proxy.RevealContentHandler;
 public class ApplicationPresenter
         extends Presenter<ApplicationPresenter.MyView, ApplicationPresenter.MyProxy> {
     interface MyView extends View {
+        void onGenerateListSeach();
     }
 
     @ProxyStandard
@@ -28,5 +29,11 @@ public class ApplicationPresenter
             MyView view,
             MyProxy proxy) {
         super(eventBus, view, proxy, RevealType.Root);
+    }
+
+    @Override
+    protected void onReveal() {
+        super.onReveal();
+        getView().onGenerateListSeach();
     }
 }

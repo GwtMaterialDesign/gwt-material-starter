@@ -21,7 +21,7 @@
     <g:HTMLPanel>
         <header>
             <!-- NavBar -->
-            <m:MaterialNavBar activates="sideNav" backgroundColor="blue">
+            <m:MaterialNavBar ui:field="navBar" paddingLeft="20" activates="sideNav" backgroundColor="blue">
                 <m:MaterialNavBrand text="Starter"/>
                 <m:MaterialNavSection float="RIGHT">
                     <m:MaterialTooltip text="Starter" position="BOTTOM">
@@ -33,8 +33,17 @@
                     <m:MaterialTooltip text="Notifications" position="BOTTOM">
                         <m:MaterialLink iconType="NOTIFICATIONS" iconPosition="NONE"/>
                     </m:MaterialTooltip>
+                    <m:MaterialTooltip text="Search" position="BOTTOM">
+                        <m:MaterialLink ui:field="btnSearch" iconType="SEARCH" iconPosition="NONE"/>
+                    </m:MaterialTooltip>
                 </m:MaterialNavSection>
             </m:MaterialNavBar>
+
+            <!-- Search Bar -->
+            <m:MaterialNavBar ui:field="navBarSearch" backgroundColor="white" visible="false">
+                <m:MaterialSearch ui:field="txtSearch" placeholder="Keyword" textColor="black" active="true"/>
+            </m:MaterialNavBar>
+
             <!-- SideNav -->
             <m:MaterialSideNav type="OPEN" m:id="sideNav" closeOnClick="false" width="280">
                 <m.addins:MaterialSideProfile url="http://static1.squarespace.com/static/51609147e4b0715db61d32b6/521b97cee4b05f031fd12dde/5519e33de4b06a1002802805/1431718693701/?format=1500w">
