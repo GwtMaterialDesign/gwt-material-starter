@@ -21,7 +21,7 @@
     <g:HTMLPanel>
         <header>
             <!-- NavBar -->
-            <m:MaterialNavBar ui:field="navBar" paddingLeft="20" activates="sideNav" backgroundColor="blue">
+            <m:MaterialNavBar ui:field="navBar" paddingLeft="20" backgroundColor="blue">
                 <m:MaterialNavBrand text="Starter"/>
                 <m:MaterialNavSection float="RIGHT">
                     <m:MaterialTooltip text="Starter" position="BOTTOM">
@@ -31,7 +31,7 @@
                         <m:MaterialLink iconType="VIEW_MODULE" iconPosition="NONE"/>
                     </m:MaterialTooltip>
                     <m:MaterialTooltip text="Notifications" position="BOTTOM">
-                        <m:MaterialLink iconType="NOTIFICATIONS" iconPosition="NONE"/>
+                        <m:MaterialLink activates="sideNav" iconType="NOTIFICATIONS" iconPosition="NONE"/>
                     </m:MaterialTooltip>
                     <m:MaterialTooltip text="Search" position="BOTTOM">
                         <m:MaterialLink ui:field="btnSearch" iconType="SEARCH" iconPosition="NONE"/>
