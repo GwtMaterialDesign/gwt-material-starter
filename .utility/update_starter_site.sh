@@ -7,7 +7,7 @@ echo -e "GH_TOKEN is not set"
 exit 1
 fi
 
-if [ ! -f $TRAVIS_BUILD_DIR/target/gwt-material-starter-*.war ]; then
+if [ ! -f $TRAVIS_BUILD_DIR/target/gwt-material-template-*.war ]; then
 echo -e "starter war file not found."
 exit 1
 fi
@@ -38,7 +38,7 @@ git rm -rf ./snapshot/WEB-INF
 fi
 
 # copy the new GwtMaterialStarter the snapshot dir.
-unzip -u $TRAVIS_BUILD_DIR/target/gwt-material-starter-*.war -d ./snapshot/
+unzip -u $TRAVIS_BUILD_DIR/target/gwt-material-template-*.war -d ./snapshot/
 rm -rf ./snapshot/META-INF
 rm -rf ./snapshot/WEB-INF
 
