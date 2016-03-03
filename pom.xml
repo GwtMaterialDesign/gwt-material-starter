@@ -16,7 +16,7 @@
         <gwtp.version>1.4</gwtp.version>
         <gin.version>2.1.2</gin.version>
         <gwt.style>OBF</gwt.style>
-        <gwt-material.version>1.5-SNAPSHOT</gwt-material.version>
+        <gwt-material.version>1.5.0-SNAPSHOT</gwt-material.version>
 
         <!-- maven -->
         <maven-war-plugin.version>2.6</maven-war-plugin.version>
