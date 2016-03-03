@@ -24,8 +24,8 @@ git clone --quiet --branch=gh-pages https://$GH_TOKEN@github.com/GwtMaterialDesi
 cd gh-pages
 
 # remove the GwtMaterialStarter directories from git.
-if [[ -d ./snapshot/gwt-material-template ]]; then
-git rm -rf ./snapshot/gwt-material-template
+if [[ -d ./snapshot/GWTMaterialStarter ]]; then
+git rm -rf ./snapshot/GWTMaterialStarter
 fi
 if [[ -f ./snapshot/index.html ]]; then
 git rm -rf ./snapshot/index.html
