@@ -2,6 +2,17 @@
 # gwt-material-starter [![Build Status](https://travis-ci.org/GwtMaterialDesign/gwt-material-starter.svg?branch=master)](https://travis-ci.org/GwtMaterialDesign/gwt-material-template)
 Template projects of gwt-material
 
+##Maven Import
+``` xml
+ 
+<dependency>
+    <groupId>com.github.gwtmaterialdesign</groupId>
+    <artifactId>gwt-material-starter</artifactId>
+    <version>1.0</version>
+</dependency>
+
+```
+
 ##Demo Snapshot
 <a href="http://gwtmaterialdesign.github.io/gwt-material-template/snapshot/">http://gwtmaterialdesign.github.io/gwt-material-starter/snapshot/</a>
 
