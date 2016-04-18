@@ -1,3 +1,22 @@
+<!--
+  #%L
+  GwtMaterial
+  %%
+  Copyright (C) 2015 - 2016 GwtMaterialDesign
+  %%
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  #L%
+  -->
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
         xmlns:g='urn:import:com.google.gwt.user.client.ui'
         xmlns:m="urn:import:gwt.material.design.client.ui"
@@ -71,7 +90,7 @@
             <m:MaterialCollapsible type="POPOUT" grid="s12 m6 l8">
                 <m:MaterialCollapsibleItem>
                     <m:MaterialCollapsibleHeader>
-                        <m:MaterialLink text="Travel" iconType="AIRPLANEMODE_ON" iconPosition="LEFT" textColor="purple"/>
+                        <m:MaterialLink text="Travel" iconType="AIRPLANEMODE_ACTIVE" iconPosition="LEFT" textColor="purple"/>
                     </m:MaterialCollapsibleHeader>
                     <m:MaterialCollapsibleBody>
                         <m:MaterialLabel text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
