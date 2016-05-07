@@ -33,12 +33,12 @@ fi
 if [[ -d ./snapshot/META-INF ]]; then
 git rm -rf ./snapshot/META-INF
 fi
-if [[ -d ./WEB-INF ]]; then
+if [[ -d ./snapshot/WEB-INF ]]; then
 git rm -rf ./snapshot/WEB-INF
 fi
 
 # copy the new GwtMaterialStarter the snapshot dir.
-unzip -u $TRAVIS_BUILD_DIR/target/gwt-material-starter-*.war -d ./
+unzip -u $TRAVIS_BUILD_DIR/target/gwt-material-starter-*.war -d ./snapshot/
 rm -rf ./snapshot/META-INF
 rm -rf ./snapshot/WEB-INF
 
