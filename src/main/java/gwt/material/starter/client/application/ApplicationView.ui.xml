@@ -40,7 +40,7 @@
     <g:HTMLPanel>
         <header>
             <!-- NavBar -->
-            <m:MaterialNavBar ui:field="navBar" paddingLeft="20" backgroundColor="blue">
+            <m:MaterialNavBar activates="sideNav" ui:field="navBar" paddingLeft="20" backgroundColor="blue">
                 <m:MaterialNavBrand text="Starter"/>
                 <m:MaterialNavSection float="RIGHT">
                     <m:MaterialTooltip text="Starter" position="BOTTOM">
