@@ -7,7 +7,7 @@ echo -e "GH_TOKEN is not set"
 exit 1
 fi
 
-if [ ! -f $TRAVIS_BUILD_DIR/target/gwt-material-template-*.war ]; then
+if [ ! -f $TRAVIS_BUILD_DIR/target/gwt-material-starter-*.war ]; then
 echo -e "starter war file not found."
 exit 1
 fi
@@ -20,7 +20,7 @@ git config --global user.name "travis-ci"
 # clone the gh-pages branch.
 cd $HOME
 rm -rf gh-pages
-git clone --quiet --branch=gh-pages https://$GH_TOKEN@github.com/GwtMaterialDesign/gwt-material-template gh-pages > /dev/null
+git clone --quiet --branch=gh-pages https://$GH_TOKEN@github.com/GwtMaterialDesign/gwt-material-starter gh-pages > /dev/null
 cd gh-pages
 
 # remove the GwtMaterialStarter directories from git.
@@ -38,7 +38,7 @@ git rm -rf ./snapshot/WEB-INF
 fi
 
 # copy the new GwtMaterialStarter the snapshot dir.
-unzip -u $TRAVIS_BUILD_DIR/target/gwt-material-template-*.war -d ./
+unzip -u $TRAVIS_BUILD_DIR/target/gwt-material-starter-*.war -d ./
 rm -rf ./snapshot/META-INF
 rm -rf ./snapshot/WEB-INF
 
