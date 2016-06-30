@@ -8,7 +8,7 @@ Template projects of gwt-material
 <dependency>
     <groupId>com.github.gwtmaterialdesign</groupId>
     <artifactId>gwt-material-starter</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
 </dependency>
 
 ```
