@@ -40,7 +40,7 @@
     <g:HTMLPanel>
         <header>
             <!-- NavBar -->
-            <m:MaterialNavBar activates="sideNav" ui:field="navBar" paddingLeft="20" backgroundColor="blue">
+            <m:MaterialNavBar activates="sideNav" ui:field="navBar" paddingLeft="20" backgroundColor="BLUE">
                 <m:MaterialNavBrand text="Starter"/>
                 <m:MaterialNavSection float="RIGHT">
                     <m:MaterialTooltip text="Starter" position="BOTTOM">
@@ -59,22 +59,22 @@
             </m:MaterialNavBar>
 
             <!-- Search Bar -->
-            <m:MaterialNavBar ui:field="navBarSearch" backgroundColor="white" visible="false">
-                <m:MaterialSearch ui:field="txtSearch" placeholder="Keyword" textColor="black" active="true"/>
+            <m:MaterialNavBar ui:field="navBarSearch" backgroundColor="WHITE" visible="false">
+                <m:MaterialSearch ui:field="txtSearch" placeholder="Keyword" textColor="BLACK" active="true"/>
             </m:MaterialNavBar>
 
             <!-- SideNav -->
             <m:MaterialSideNav type="FIXED" m:id="sideNav" closeOnClick="false" width="280">
                 <ma:sideprofile.MaterialSideProfile url="http://static1.squarespace.com/static/51609147e4b0715db61d32b6/521b97cee4b05f031fd12dde/5519e33de4b06a1002802805/1431718693701/?format=1500w">
                     <m:MaterialImage url="http://b.vimeocdn.com/ps/339/488/3394886_300.jpg" />
-                    <m:MaterialLabel text="GWT Material" textColor="white"/>
-                    <m:MaterialLink text="gwt-material@gmail.com" activates="dropProfile" iconType="ARROW_DROP_DOWN" iconPosition="RIGHT" textColor="white"/>
+                    <m:MaterialLabel text="GWT Material" textColor="WHITE"/>
+                    <m:MaterialLink text="gwt-material@gmail.com" activates="dropProfile" iconType="ARROW_DROP_DOWN" iconPosition="RIGHT" textColor="WHITE"/>
                 </ma:sideprofile.MaterialSideProfile>
-                <m:MaterialLink text="Starter" textColor="blue" iconType="WHATSHOT"/>
-                <m:MaterialLink text="Apps" textColor="blue" iconType="VIEW_MODULE"/>
-                <m:MaterialLink text="Notifications" textColor="blue" iconType="NOTIFICATIONS" separator="true"/>
-                <m:MaterialLink text="Navigation" textColor="blue" iconType="NAVIGATION"/>
-                <m:MaterialLink text="Favorite" textColor="blue" iconType="FAVORITE"/>
+                <m:MaterialLink text="Starter" textColor="BLUE" iconType="WHATSHOT"/>
+                <m:MaterialLink text="Apps" textColor="BLUE" iconType="VIEW_MODULE"/>
+                <m:MaterialLink text="Notifications" textColor="BLUE" iconType="NOTIFICATIONS" separator="true"/>
+                <m:MaterialLink text="Navigation" textColor="BLUE" iconType="NAVIGATION"/>
+                <m:MaterialLink text="Favorite" textColor="BLUE" iconType="FAVORITE"/>
             </m:MaterialSideNav>
             <!--Drop down -->
             <m:MaterialDropDown activator="dropProfile">
@@ -85,12 +85,12 @@
         </header>
 
         <m:MaterialContainer fontSize="0.8em">
-            <m:MaterialLabel text="Today" textColor="grey" addStyleNames="{style.label}"/>
+            <m:MaterialLabel text="Today" textColor="GREY" addStyleNames="{style.label}"/>
             <!-- Collapsible -->
             <m:MaterialCollapsible type="POPOUT" grid="s12 m6 l8">
                 <m:MaterialCollapsibleItem>
                     <m:MaterialCollapsibleHeader>
-                        <m:MaterialLink text="Travel" iconType="AIRPLANEMODE_ACTIVE" iconPosition="LEFT" textColor="purple"/>
+                        <m:MaterialLink text="Travel" iconType="AIRPLANEMODE_ACTIVE" iconPosition="LEFT" textColor="PURPLE"/>
                     </m:MaterialCollapsibleHeader>
                     <m:MaterialCollapsibleBody>
                         <m:MaterialLabel text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
@@ -99,7 +99,7 @@
 
                 <m:MaterialCollapsibleItem>
                     <m:MaterialCollapsibleHeader>
-                        <m:MaterialLink text="Social" iconType="GROUP" iconPosition="LEFT" textColor="red"/>
+                        <m:MaterialLink text="Social" iconType="GROUP" iconPosition="LEFT" textColor="RED"/>
                     </m:MaterialCollapsibleHeader>
                     <m:MaterialCollapsibleBody>
                         <m:MaterialLabel text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
@@ -108,7 +108,7 @@
 
                 <m:MaterialCollapsibleItem>
                     <m:MaterialCollapsibleHeader>
-                        <m:MaterialLink text="Updates" iconType="FLAG" iconPosition="LEFT" textColor="amber"/>
+                        <m:MaterialLink text="Updates" iconType="FLAG" iconPosition="LEFT" textColor="AMBER"/>
                     </m:MaterialCollapsibleHeader>
                     <m:MaterialCollapsibleBody>
                         <m:MaterialLabel text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
@@ -117,7 +117,7 @@
 
                 <m:MaterialCollapsibleItem>
                     <m:MaterialCollapsibleHeader>
-                        <m:MaterialLink text="Purchases" iconType="ADD_SHOPPING_CART" iconPosition="LEFT" textColor="brown"/>
+                        <m:MaterialLink text="Purchases" iconType="ADD_SHOPPING_CART" iconPosition="LEFT" textColor="BROWN"/>
                     </m:MaterialCollapsibleHeader>
                     <m:MaterialCollapsibleBody>
                         <m:MaterialLabel text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
@@ -126,7 +126,7 @@
 
                 <m:MaterialCollapsibleItem>
                     <m:MaterialCollapsibleHeader>
-                        <m:MaterialLink text="Promos" iconType="LOYALTY" iconPosition="LEFT" textColor="blue"/>
+                        <m:MaterialLink text="Promos" iconType="LOYALTY" iconPosition="LEFT" textColor="BLUE"/>
                     </m:MaterialCollapsibleHeader>
                     <m:MaterialCollapsibleBody>
                         <m:MaterialLabel text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
@@ -135,7 +135,7 @@
 
                 <m:MaterialCollapsibleItem>
                     <m:MaterialCollapsibleHeader>
-                        <m:MaterialLink text="Finance" iconType="INSERT_CHART" iconPosition="LEFT" textColor="green"/>
+                        <m:MaterialLink text="Finance" iconType="INSERT_CHART" iconPosition="LEFT" textColor="GREEN"/>
                     </m:MaterialCollapsibleHeader>
                     <m:MaterialCollapsibleBody>
                         <m:MaterialLabel text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
@@ -147,20 +147,20 @@
         <!-- FAB -->
         <m:MaterialFAB>
             <m:MaterialTooltip text="Create" position="LEFT">
-                <m:MaterialButton type="FLOATING" backgroundColor="red" iconType="ADD" size="LARGE"/>
+                <m:MaterialButton type="FLOATING" backgroundColor="RED" iconType="ADD" size="LARGE"/>
             </m:MaterialTooltip>
             <m:MaterialFABList>
                 <m:MaterialTooltip text="Theme" position="LEFT">
-                    <m:MaterialAnchorButton type="FLOATING" waves="LIGHT" backgroundColor="blue" iconType="PALETTE"/>
+                    <m:MaterialAnchorButton type="FLOATING" waves="LIGHT" backgroundColor="BLUE" iconType="PALETTE"/>
                 </m:MaterialTooltip>
                 <m:MaterialTooltip text="Mail " position="LEFT">
-                    <m:MaterialAnchorButton type="FLOATING" waves="LIGHT" backgroundColor="amber"  iconType="MAIL"/>
+                    <m:MaterialAnchorButton type="FLOATING" waves="LIGHT" backgroundColor="AMBER"  iconType="MAIL"/>
                 </m:MaterialTooltip>
             </m:MaterialFABList>
         </m:MaterialFAB>
 
         <!-- Footer -->
-        <m:MaterialFooter backgroundColor="blue" type="FIXED">
+        <m:MaterialFooter backgroundColor="BLUE" type="FIXED">
             <m:MaterialFooterCopyright>
                 <m:MaterialLabel text="© 2015 Copyright GWT Material" />
             </m:MaterialFooterCopyright>
