@@ -22,8 +22,6 @@ package gwt.material.starter.client.application;
 
 
 import com.google.gwt.event.dom.client.ClickEvent;
-import com.google.gwt.event.logical.shared.CloseEvent;
-import com.google.gwt.event.logical.shared.CloseHandler;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
@@ -31,7 +29,6 @@ import com.google.gwt.user.client.ui.Widget;
 import com.gwtplatform.mvp.client.ViewImpl;
 import gwt.material.design.client.base.SearchObject;
 import gwt.material.design.client.constants.IconType;
-import gwt.material.design.client.events.SearchFinishEvent;
 import gwt.material.design.client.ui.MaterialNavBar;
 import gwt.material.design.client.ui.MaterialSearch;
 import gwt.material.design.client.ui.MaterialToast;
@@ -55,19 +52,11 @@ public class ApplicationView extends ViewImpl implements ApplicationPresenter.My
     ApplicationView(
             Binder uiBinder) {
         initWidget(uiBinder.createAndBindUi(this));
-        txtSearch.addCloseHandler(new CloseHandler<String>() {
-            @Override
-            public void onClose(CloseEvent<String> event) {
-                navBar.setVisible(true);
-                navBarSearch.setVisible(false);
-            }
+        txtSearch.addCloseHandler(event -> {
+            navBar.setVisible(true);
+            navBarSearch.setVisible(false);
         });
-        txtSearch.addSearchFinishHandler(new SearchFinishEvent.SearchFinishHandler() {
-            @Override
-            public void onSearchFinish(SearchFinishEvent event) {
-                MaterialToast.fireToast("You search : " + txtSearch.getSelectedObject().getKeyword());
-            }
-        });
+        txtSearch.addSearchFinishHandler(event -> MaterialToast.fireToast("You search : " + txtSearch.getSelectedObject().getKeyword()));
     }
 
     @UiHandler("btnSearch")
