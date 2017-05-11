@@ -1,5 +1,7 @@
 <img src="http://i.imgur.com/7butqvc.png" />
-# gwt-material-starter [![Build Status](https://travis-ci.org/GwtMaterialDesign/gwt-material-starter.svg?branch=master)](https://travis-ci.org/GwtMaterialDesign/gwt-material-template)
+
+# gwt-material-starter 
+[![Build Status](https://travis-ci.org/GwtMaterialDesign/gwt-material-starter.svg?branch=master)](https://travis-ci.org/GwtMaterialDesign/gwt-material-template)
 Template projects of gwt-material
 
 ##Maven Import
@@ -8,7 +10,7 @@ Template projects of gwt-material
 <dependency>
     <groupId>com.github.gwtmaterialdesign</groupId>
     <artifactId>gwt-material-starter</artifactId>
-    <version>2.0-rc2</version>
+    <version>2.0-rc5</version>
 </dependency>
 
 ```
