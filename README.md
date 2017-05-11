@@ -16,7 +16,7 @@ Template projects of gwt-material
 ```
 
 ## Demo Snapshot
-<a href="http://gwtmaterialdesign.github.io/gwt-material-template/snapshot/">http://gwtmaterialdesign.github.io/gwt-material-starter/snapshot/</a>
+<a href="http://gwtmaterialdesign.github.io/gwt-material-template/snapshot/">http://gwtmaterialdesign.github.io/gwt-material-starter/</a>
 
 ## Follow Us
 <a href="https://plus.google.com/u/0/communities/108005250093449814286"> Google Plus</a>
