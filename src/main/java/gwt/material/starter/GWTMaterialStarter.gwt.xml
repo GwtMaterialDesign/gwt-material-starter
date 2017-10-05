@@ -30,7 +30,8 @@
 
     <!-- GWT Material -->
     <inherits name="gwt.material.design.GwtMaterialWithJQueryDebug"/>
-    <inherits name="gwt.material.design.addins.GwtMaterialAddins"/>
+    <inherits name="gwt.material.design.themes.ThemeBlue"/>
+    <inherits name="gwt.material.design.addins.GwtMaterialAddinsDebug"/>
 
     <!-- Specify the paths for translatable code                    -->
     <source path='client'/>
