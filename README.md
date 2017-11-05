@@ -10,7 +10,7 @@ Template projects of gwt-material
 <dependency>
     <groupId>com.github.gwtmaterialdesign</groupId>
     <artifactId>gwt-material-starter</artifactId>
-    <version>2.0-rc6</version>
+    <version>2.0</version>
 </dependency>
 
 ```
